@@ -8,3 +8,5 @@ const conectarDB = async () => {
     console.error("Error al conectar MongoDB: ", err);
   }
 };
+
+conectarDB();
