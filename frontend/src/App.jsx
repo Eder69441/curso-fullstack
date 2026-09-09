@@ -1,6 +1,7 @@
 
 // import './App.css'
 
+import CreateProduct from "./pages/CreateProduct"
 import ProductList from "./pages/ProductsList"
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="container mx-auto">
       <ProductList/>
+      <CreateProduct/>
     </div>
   )
 }
